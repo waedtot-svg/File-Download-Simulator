@@ -11,12 +11,4 @@ Each file runs on its own individual Thread, without using a thread pool.
 - DownloadTask.java
 - download.fxml
 
-## Notes
 
-The interface is created using FXML and can be edited with Scene Builder.
-
-Required idea:
-- 3 files
-- 3 progress bars
-- 3 separate threads
-- No ExecutorService / no thread pool
